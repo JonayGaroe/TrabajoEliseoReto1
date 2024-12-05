@@ -1846,7 +1846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &164603951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2152,7 +2152,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 188180992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1662777503}
+        m_TargetAssemblyTypeName: Menusbotones, Assembly-CSharp
+        m_MethodName: reintentarotracosa33
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &188180992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4615,7 +4627,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565983056}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1662777503}
+        m_TargetAssemblyTypeName: Menusbotones, Assembly-CSharp
+        m_MethodName: reintentarotracosa55
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &565983056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5815,9 +5839,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1590411317}
-        m_TargetAssemblyTypeName: Restartcrip, Assembly-CSharp
-        m_MethodName: Nivel1
+      - m_Target: {fileID: 1662777503}
+        m_TargetAssemblyTypeName: Menusbotones, Assembly-CSharp
+        m_MethodName: reintentarotracosa33
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5947,7 +5971,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 701991867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1662777503}
+        m_TargetAssemblyTypeName: Menusbotones, Assembly-CSharp
+        m_MethodName: reintentarotracosa44
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &701991867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8422,9 +8458,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1590411317}
-        m_TargetAssemblyTypeName: Restartcrip, Assembly-CSharp
-        m_MethodName: Nivel2
+      - m_Target: {fileID: 1662777503}
+        m_TargetAssemblyTypeName: Menusbotones, Assembly-CSharp
+        m_MethodName: nivel22
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

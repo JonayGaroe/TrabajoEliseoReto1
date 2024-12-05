@@ -170,10 +170,37 @@ public class Menusbotones : MonoBehaviour
 
     }
 
+    public void nivel22()
+    {
+        ganar.SetActive(false);
+        canvasfinal.SetActive(false);
+        SceneManager.LoadScene("otracosaa2");
 
+    }
 
+    public void reintentarotracosa33()
+    {
+        ganar.SetActive(false);
+        canvasfinal.SetActive(false);
+        SceneManager.LoadScene("otracosaa3");
 
+    }
 
+    public void reintentarotracosa44()
+    {
+        ganar.SetActive(false);
+        canvasfinal.SetActive(false);
+        SceneManager.LoadScene("otracosaa4");
+
+    }
+
+    public void reintentarotracosa55()
+    {
+        ganar.SetActive(false);
+        canvasfinal.SetActive(false);
+        SceneManager.LoadScene("otracosaa5");
+
+    }
 
 
 
