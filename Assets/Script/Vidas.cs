@@ -7,8 +7,27 @@ public class VidaManager : MonoBehaviour
 {
     public int vidas = 3; // Número de vidas iniciales
     public Text vidasText; // Referencia al texto de la UI que mostrará las vidas (opcional)
+    [SerializeField]
+    GameObject powerup;
 
     // Método para reducir las vidas cuando el cubo colisiona con algo
+
+
+    void Start()
+    {
+
+        float RandomI = Random.Range(0, 2) == 0 ? 1 : -1;
+
+        Vector3 posicion = new Vector3(0, 0, 0);
+        Instantiate(powerup, posicion, Quaternion.identity);
+
+
+
+
+    }
+    
+
+
     private void OnCollisionEnter(Collision collision)
     {
         // Aquí puedes colocar una condición para reducir vidas cuando colisiona con un objeto específico

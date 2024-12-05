@@ -6,6 +6,8 @@ using TMPro;
 
 public class Bloques : MonoBehaviour
 {
+    public static Bloques instance;
+    public GameObject[] powerup;
     public int bloquesCount = 30;
     public TextMeshProUGUI bloquesText;
     public TextMeshProUGUI bloquesText2;
@@ -13,8 +15,12 @@ public class Bloques : MonoBehaviour
     public AudioClip Bloquefx;
     [SerializeField]
     GameObject CanvasGanar;
- //   [SerializeField]
-//    GameObject Bola8;
+    [SerializeField]
+    GameObject Capsule1;
+    [SerializeField]
+    Vector2 positionPalo;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,10 +44,12 @@ public class Bloques : MonoBehaviour
 
         if (other.gameObject.CompareTag("bloquesss"))
         {
+
+        
             // Verificar si el tag coincide antes de hacer el resto de la lógica
             // Destruir el objeto con el tag "bloquesss"
             other.collider.GetComponent<VidasBloques>().bloqueVida -= 1;
-            if(other.collider.GetComponent<VidasBloques>().bloqueVida <= 0)
+            if (other.collider.GetComponent<VidasBloques>().bloqueVida <= 0)
  
             {
                 bloquesCount = bloquesCount - 1;
@@ -57,8 +65,7 @@ public class Bloques : MonoBehaviour
                 {
                     Debug.Log("FUNCCIONA");
                     MapaAleatorio.instance.GenerarMapa();
-
-
+                    Vector3 posicion = new Vector3(0, 0, 0);
 
 
                 }
