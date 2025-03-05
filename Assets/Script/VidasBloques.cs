@@ -6,8 +6,12 @@ public class VidasBloques : MonoBehaviour
 {
     public int bloqueVida;
     // Start is called before the first frame update
-    [SerializeField]
-    GameObject powerup;
+    public GameObject prefabPowerUp; // Prefab del power-up
+    public float probabilidadPowerUp = 0.8f; // Probabilidad de que salga un power-up (20%)
+
+    public delegate void BloqueDestruidoHandler();
+    public event BloqueDestruidoHandler OnBloqueDestruido;
+
 
 
     void Start()
@@ -25,26 +29,46 @@ public class VidasBloques : MonoBehaviour
 
     void Update()
     {
-
-
+        // Verifica si las vidas llegaron a 0
+        if (bloqueVida <= 0)  // Cambiado de == 0 a <= 0
+        {
+            Debug.Log("Bloque destruido, instanciando power-up");
+            if (Random.value < probabilidadPowerUp)
+            {
+                Debug.Log("Power-up instanciado en: " + transform.position);
+                Instantiate(prefabPowerUp, transform.position, Quaternion.identity);
+                Destroy(gameObject);  // Destruye el bloque
+            }
+        }
     }
-    private void OnCollisionEnter2D(Collision2D other)
+    // Método para destruir el bloque
+    public void DestruirBloque()
     {
-
-      
-         float RandomI = Random.Range(0, 2) == 0 ? 1 : -1;
-         Vector3 posicion = new Vector3(700, 400, 0);
-         Instantiate(powerup, posicion, Quaternion.identity);
-          
-
-      
-
-
-
+        OnBloqueDestruido?.Invoke();  // Llama al evento cuando el bloque se destruye
+        Destroy(gameObject); // Destruye el bloque
     }
+
+
+
 }
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

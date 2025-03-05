@@ -142,4 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 2
+  bloqueVida: 1
+  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+  probabilidadPowerUp: 0

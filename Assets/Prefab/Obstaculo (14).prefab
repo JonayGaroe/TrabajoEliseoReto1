@@ -143,3 +143,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 1
+  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+  probabilidadPowerUp: 0

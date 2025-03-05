@@ -22,6 +22,8 @@ public class MovimientoPelota : MonoBehaviour
    
     public Vector2 posicionPelota;
 
+    bool bolaQ = true;
+
     void Start()
     {
         ballRb = GetComponent<Rigidbody2D>();
@@ -34,13 +36,13 @@ public class MovimientoPelota : MonoBehaviour
     void Update()
     {
 
-       if (Input.GetKeyDown(KeyCode.Space))
+       if ( bolaQ && Input.GetKeyDown(KeyCode.Space)) 
        {
 
 
             Launch();
             transform.parent = null;
-
+            bolaQ = false;
 
        }
 
@@ -93,6 +95,7 @@ public class MovimientoPelota : MonoBehaviour
             float xVelocity = 1f;
             float yVelocity = 1f;
             ballRb.velocity = new Vector2(xVelocity, yVelocity) * initialVelocity;
+            bolaQ = true;   
         }
 
         //gameObject.tranform.parent = Palo.tranform;

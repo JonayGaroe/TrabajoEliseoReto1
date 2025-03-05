@@ -1,46 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
 
+using UnityEngine;
 
-public class Bloques : MonoBehaviour
+public class BloquesRandom2 : MonoBehaviour
 {
     public static Bloques instance;
-   // public GameObject[] powerup;
+    // public GameObject[] powerup;
     public int bloquesCount = 30;
     public TextMeshProUGUI bloquesText;
     public TextMeshProUGUI bloquesText2;
-    public int  bloquesPuntos = 20;
+    public int bloquesPuntos = 20;
     public AudioClip Bloquefx;
     [SerializeField]
     GameObject CanvasGanar;
-   
+
     [SerializeField]
     Vector2 positionPalo;
 
- 
+
 
     public AudioClip destruirBloquefx;
 
 
     public int puntos = 10; // Puntos que otorga este bloque cuando es destruido
 
+    private void Awake()
+    {
 
 
 
-    // Start is called before the first frame update
+    } 
     void Start()
     {
         bloquesCount = 30;
-   
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-     
+
 
     }
 
@@ -66,14 +68,15 @@ public class Bloques : MonoBehaviour
                     Instantiate(vidasBloques.prefabPowerUp, other.transform.position, Quaternion.identity);
                     Debug.Log("Power-up instanciado en: " + other.transform.position);
                 }
-
-                // Destruir el bloque después de instanciar el power-up
+               
+                // Destruir el bloque despu?s de instanciar el power-up
                 Destroy(other.gameObject);
-                bloquesText.text = bloquesCount.ToString();
-                //bloquesText2.text = bloquesCount.ToString();
+                // bloquesText2.text = bloquesCount.ToString();
+               // bloquesText.text = bloquesCount.ToString();
 
-              
+
             }
+
         }
 
 
@@ -96,27 +99,18 @@ public class Bloques : MonoBehaviour
 
             }
         */
+
         if (bloquesCount <= 0)
-       {
-           
-
-            CanvasGanar.SetActive(true);
-
-            //Time.timeScale = 0;
-
-       }
-        /*
-        if(CanvasGanar.activeSelf)
         {
 
+            MapaAleatorio.instance.RegenerarMapa();
 
-            // Bola8.SetActive(false);
-            Time.timeScale = 0f;
+
+            bloquesCount = 30;
 
         }
 
 
-        */
     }
-    
+
 }

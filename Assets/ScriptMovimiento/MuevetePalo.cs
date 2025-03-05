@@ -5,144 +5,58 @@ using UnityEngine;
 
 public class MuevetePalo : MonoBehaviour
 {
-
-    [SerializeField]
-   GameObject capsula1;
-    [SerializeField]
-    GameObject capsula2;
-    [SerializeField]
-    GameObject capsula3;
-    [SerializeField]
-    private float speed = 7f;
-    [SerializeField]
-    private float minXIN = 132f;  // Límite mínimo en el eje X (por ejemplo, la pared izquierda)
-    [SerializeField]
-    private float maxXIN = 980f;   // Límite máximo en el eje X (por ejemplo, la pared derecha)
-    [SerializeField]
-    private float minX = 132f;  // Límite mínimo en el eje X (por ejemplo, la pared izquierda)
-    [SerializeField]
-    private float maxX = 980f;   // Límite máximo en el eje X (por ejemplo, la pared derecha)
+    
+    [SerializeField] private float speed = 7f;
+    [SerializeField] private float minX = 132f;
+    [SerializeField] private float maxX = 980f;
     private Rigidbody2D paloRb;
-    public bool isInverted = false;
+    private bool isInverted = false;
+    [SerializeField] private Vector2 positionPalo;
 
-    [SerializeField]
-    Vector2 positionPalo;
+    float movement = 0f;
 
     private void Start()
     {
-
-
         paloRb = GetComponent<Rigidbody2D>();
         positionPalo = transform.localPosition;
-
     }
 
     void Update()
     {
+        movement = Input.GetAxisRaw("Horizontal");  // Obtener movimiento horizontal
 
+        if (isInverted)
+        {
+            movement *= -1; // Invertir el movimiento si está activado
+        }
 
-        if(isInverted == false)
-        { 
-        // Obtener el movimiento horizontal
-        float movement = Input.GetAxisRaw("Horizontal");
-
-        // Calcular la nueva posición en el eje X
+        // Calcular la nueva posición en el eje X y limitarla a los valores de minX y maxX
         float newPosX = transform.position.x + movement * speed * Time.deltaTime;
-
-        // Limitar la posición en el eje X para que no traspase las paredes
-        newPosX = Mathf.Clamp(newPosX, minX, maxX);
-
-
-        // Asignar la nueva posición manteniendo la posición Y igual
+        newPosX = Mathf.Clamp(newPosX, minX, maxX);  // Limitar el movimiento al rango establecido
         transform.position = new Vector3(newPosX, transform.position.y, transform.position.z);
-
-
-
-            //float movement = Input.GetAxisRaw("Horizontal");
-            // transform.position += new Vector3(movement, 0 * speed * Time.deltaTime);
-           
-        }
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-
-            isInverted = !isInverted;
-            
-
-
-        }
-        if (isInverted == true)
-        {
-            
-            float movimiento = -Input.GetAxisRaw("Horizontal");
-            float newPosXIn = -transform.position.x + -movimiento * speed * Time.deltaTime;
-           // newPosXIn = Mathf.Clamp(-newPosXIn, minXIN, maxXIN);
-
-            transform.position = new Vector3(-newPosXIn, transform.position.y, transform.position.z);
-            //  Transform.osition(1,0,0);
-            
-
-        }
-
-
     }
 
-   
-
-
-
-
-
-
-
-    private void OnTriggerEnter2D(Collider2D other)
+    public void InvertirControles(float duration)
     {
-
-        if (other.tag == "powerUp")
-         {
-            if (isInverted == true)
-            { 
-                isInverted = false;
-                Destroy(other.gameObject);
-
-
-            }
-
-
-            if (isInverted == false)
-            {
-
-
-                isInverted = true;
-        
-
-            }
-            
-
-
-         }
-
-
-        
+        if (!isInverted) // Solo activar si no está invertido ya
+        {
+            StartCoroutine(InvertirTemporizador(duration));
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private IEnumerator InvertirTemporizador(float duration)
     {
-    
-
+        isInverted = true;  // Activar la inversión de controles
+        yield return new WaitForSeconds(duration);  // Esperar el tiempo de duración
+        isInverted = false; // Desactivar la inversión después del tiempo
     }
 
-    public void ResetPlayer()
+
+
+
+
+public void ResetPlayer()
     {
         transform.position = positionPalo;
     }
-
-
-
 }
-/*
-int seleccion = Random.Range(1, 5);
-if (seleccion == 5)
-{
-    Instantiate(Capsule1, positionPalo, Quaternion.identity);
-}
-*/
