@@ -265,8 +265,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &18246744
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,8 +420,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &23240485
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,8 +891,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &58931020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,8 +1361,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &103661367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,7 +1894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &164603951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,9 +2527,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &270958744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0488a6feec7671408370a0e80f63048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  muevetePalo: {fileID: 0}
   speed: 0
   minX: 132
   maxX: 980
@@ -3968,8 +4019,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &460925418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4160,9 +4221,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &474945845
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,8 +5204,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &590615128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,13 +5549,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c023e4ea97d8e439a1f165750a5162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 2
+  vidas: 4
   vidasText: {fileID: 2134988046}
   pantallaFinal: {fileID: 659453076}
   textLabelTime: {fileID: 1398798661}
   textLTime: {fileID: 1398798661}
   ganar: {fileID: 853439269}
   ganarla: {fileID: 349173314}
+  RecuperarVida: 1
 --- !u!61 &630405838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7019,8 +7101,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &866006201
 GameObject:
   m_ObjectHideFlags: 0
@@ -7268,9 +7360,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &887901813
 GameObject:
   m_ObjectHideFlags: 0
@@ -7413,9 +7515,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &888575585
 GameObject:
   m_ObjectHideFlags: 0
@@ -7871,8 +7983,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &951312545
 GameObject:
   m_ObjectHideFlags: 0
@@ -8015,9 +8137,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8253,8 +8385,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1010544389
 GameObject:
   m_ObjectHideFlags: 0
@@ -8398,8 +8540,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1017737362
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,9 +9210,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1142471900
 GameObject:
   m_ObjectHideFlags: 0
@@ -10728,6 +10890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0488a6feec7671408370a0e80f63048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  muevetePalo: {fileID: 0}
   speed: 431.2
   minX: 123
   maxX: 969
@@ -11354,8 +11517,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1456802121
 GameObject:
   m_ObjectHideFlags: 0
@@ -11498,9 +11671,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1463936344
 GameObject:
   m_ObjectHideFlags: 0
@@ -11911,9 +12094,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1513140159
 GameObject:
   m_ObjectHideFlags: 0
@@ -12225,6 +12418,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563989411}
   m_CullTransparentMesh: 1
+--- !u!1001 &1572637449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 604.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_Name
+      value: vidapower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
 --- !u!1 &1584249889
 GameObject:
   m_ObjectHideFlags: 0
@@ -13042,9 +13296,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1670153886
 GameObject:
   m_ObjectHideFlags: 0
@@ -13351,9 +13615,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1706034505
 GameObject:
   m_ObjectHideFlags: 0
@@ -13473,8 +13747,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muevetePalo: {fileID: 1356481640}
-  initialVelocity: 252.8
-  ballRb: {fileID: 0}
+  destruyeBloques: 0
+  initialVelocity: 270
+  velocidadReducida: 130
+  velocidad: 270
+  ballRb: {fileID: 1706034515}
   posicionPelota: {x: 0, y: 0}
 --- !u!61 &1706034514
 BoxCollider2D:
@@ -13532,8 +13809,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 1592.5897
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -14266,8 +14543,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1822646731
 GameObject:
   m_ObjectHideFlags: 0
@@ -14879,8 +15166,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &1914221974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15543,6 +15840,79 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0000002, y: 1.0000002}
   m_EdgeRadius: 0
+--- !u!1001 &1994767892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.6770945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.6770945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.6770945
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1030.827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 684.4743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -683.9414
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420094515303356006, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_Name
+      value: vidapower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
 --- !u!1 &2006905620
 GameObject:
   m_ObjectHideFlags: 0
@@ -16090,8 +16460,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 3
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &2070328367
 GameObject:
   m_ObjectHideFlags: 0
@@ -16368,9 +16748,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &2078379607
 GameObject:
   m_ObjectHideFlags: 0
@@ -16647,9 +17037,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &2118977618
 GameObject:
   m_ObjectHideFlags: 0
@@ -16792,9 +17192,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7463b995c4295bf46a3057e60211d09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
-  probabilidadPowerUp: 0.9
+  bloqueVida: 3
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+  probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp5: 0
+  duracionDestruccion: 10
 --- !u!1 &2120738507
 GameObject:
   m_ObjectHideFlags: 0
@@ -17241,10 +17651,42 @@ PrefabInstance:
     - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
       propertyPath: prefabPowerUp
       value: 
-      objectReference: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+      objectReference: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: prefabPowerUp2
+      value: 
+      objectReference: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: prefabPowerUp3
+      value: 
+      objectReference: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: prefabPowerUp4
+      value: 
+      objectReference: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: prefabPowerUp5
+      value: 
+      objectReference: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
     - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
       propertyPath: probabilidadPowerUp
-      value: 0.9
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: probabilidadPowerUp2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: probabilidadPowerUp3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: probabilidadPowerUp4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190871439612034907, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+      propertyPath: probabilidadPowerUp5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7648397501287975902, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
       propertyPath: m_Name
@@ -17255,6 +17697,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a942fc654de3314d91217a9af6b0f09, type: 3}
+--- !u!1001 &2204136868155245340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_Name
+      value: BolaSlow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 604.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947896743419574655, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
 --- !u!1001 &5310199408947909121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17309,15 +17812,47 @@ PrefabInstance:
       objectReference: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
     - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
       propertyPath: bloqueVida
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
       propertyPath: prefabPowerUp
       value: 
-      objectReference: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+      objectReference: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: prefabPowerUp2
+      value: 
+      objectReference: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: prefabPowerUp3
+      value: 
+      objectReference: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: prefabPowerUp4
+      value: 
+      objectReference: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: prefabPowerUp5
+      value: 
+      objectReference: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
     - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
       propertyPath: probabilidadPowerUp
-      value: 0.9
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: probabilidadPowerUp2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: probabilidadPowerUp3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: probabilidadPowerUp4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955788097549941014, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+      propertyPath: probabilidadPowerUp5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6136188817136964526, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
       propertyPath: m_Name
@@ -17328,6 +17863,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc1117b4832c3cd4ba4fa5eec8d612a7, type: 3}
+--- !u!1001 &5880145582551775918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_Name
+      value: InvertirBola
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 604.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840315640313685707, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
 --- !u!1001 &6239924479940160527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17448,10 +18044,42 @@ PrefabInstance:
     - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
       propertyPath: prefabPowerUp
       value: 
-      objectReference: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+      objectReference: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: prefabPowerUp2
+      value: 
+      objectReference: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: prefabPowerUp3
+      value: 
+      objectReference: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: prefabPowerUp4
+      value: 
+      objectReference: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: prefabPowerUp5
+      value: 
+      objectReference: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
     - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
       propertyPath: probabilidadPowerUp
-      value: 0.9
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: probabilidadPowerUp2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: probabilidadPowerUp3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: probabilidadPowerUp4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986696577139754569, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
+      propertyPath: probabilidadPowerUp5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8703323467618093714, guid: 14a58624a79873d4f81bc7883f538868, type: 3}
       propertyPath: m_Name
@@ -17480,6 +18108,7 @@ SceneRoots:
   - {fileID: 164603954}
   - {fileID: 2011316234}
   - {fileID: 1533668158}
+  - {fileID: 1994767892}
   - {fileID: 2126915997}
   - {fileID: 889009883}
   - {fileID: 650699957}
@@ -17491,6 +18120,9 @@ SceneRoots:
   - {fileID: 1662777504}
   - {fileID: 460925420}
   - {fileID: 1210824292}
+  - {fileID: 5880145582551775918}
   - {fileID: 1311017861}
   - {fileID: 6239924479940160527}
   - {fileID: 282719052}
+  - {fileID: 2204136868155245340}
+  - {fileID: 1572637449}

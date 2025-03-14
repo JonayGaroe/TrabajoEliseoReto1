@@ -68,7 +68,27 @@ public class BloquesRandom2 : MonoBehaviour
                     Instantiate(vidasBloques.prefabPowerUp, other.transform.position, Quaternion.identity);
                     Debug.Log("Power-up instanciado en: " + other.transform.position);
                 }
-               
+                if (Random.value < vidasBloques.probabilidadPowerUp4)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp4, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp2)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp2, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp3)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp3, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp5)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp5, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+
                 // Destruir el bloque despu?s de instanciar el power-up
                 Destroy(other.gameObject);
                 // bloquesText2.text = bloquesCount.ToString();

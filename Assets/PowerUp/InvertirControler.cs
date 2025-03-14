@@ -23,4 +23,10 @@ public class InvertirControler : MonoBehaviour
             }
         }
     }
+
+    void OnBecameInvisible()
+    {
+        Destroy(gameObject);  // Destruye el objeto cuando ya no es visible en la cámara
+    }
+
 }

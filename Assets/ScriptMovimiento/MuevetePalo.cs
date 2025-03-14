@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class MuevetePalo : MonoBehaviour
 {
-    
+    public MuevetePalo muevetePalo;  // Declaración pública para asignar desde el Inspector
+
     [SerializeField] private float speed = 7f;
     [SerializeField] private float minX = 132f;
     [SerializeField] private float maxX = 980f;
@@ -34,6 +35,12 @@ public class MuevetePalo : MonoBehaviour
         float newPosX = transform.position.x + movement * speed * Time.deltaTime;
         newPosX = Mathf.Clamp(newPosX, minX, maxX);  // Limitar el movimiento al rango establecido
         transform.position = new Vector3(newPosX, transform.position.y, transform.position.z);
+
+
+
+
+
+
     }
 
     public void InvertirControles(float duration)

@@ -29,6 +29,8 @@ public class Bloques : MonoBehaviour
 
 
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,6 +66,26 @@ public class Bloques : MonoBehaviour
                 if (Random.value < vidasBloques.probabilidadPowerUp)  // Esto verifica la probabilidad de que el power-up salga
                 {
                     Instantiate(vidasBloques.prefabPowerUp, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp4)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp4, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp2)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp2, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp3)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp3, other.transform.position, Quaternion.identity);
+                    Debug.Log("Power-up instanciado en: " + other.transform.position);
+                }
+                if (Random.value < vidasBloques.probabilidadPowerUp5)  // Esto verifica la probabilidad de que el power-up salga
+                {
+                    Instantiate(vidasBloques.prefabPowerUp5, other.transform.position, Quaternion.identity);
                     Debug.Log("Power-up instanciado en: " + other.transform.position);
                 }
 

@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class PartidaPerdida : MonoBehaviour
 {
 
+    public static PartidaPerdida instance { get; private set; }
+
     public int vidas = 3;
-    public TextMeshProUGUI  vidasText; // Referencia al texto de la UI que mostrará las vidas (opcional)
+    public TextMeshProUGUI vidasText; // Referencia al texto de la UI que mostrará las vidas (opcional)
 
     [SerializeField]
     GameObject pantallaFinal;
@@ -19,45 +21,69 @@ public class PartidaPerdida : MonoBehaviour
     TextMeshProUGUI textLTime;
     [SerializeField]
     TextMeshProUGUI ganar;
-      [SerializeField]
+    [SerializeField]
     GameObject ganarla;
     float tiempoDePartida = 0.0f;
     bool estaJugando = true;
 
+    bool power = false;
+
+    public int RecuperarVida = 1;
+
+    void Awake()
+    {
+        // Asegurarse de que la instancia no sea null
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(gameObject); // Evita que se duplique la instancia
+    }
 
 
+    void Update()
+    {
 
-     void Update()
-     {
-    
-        vidasText.text ="" + vidas;
+        vidasText.text = "" + vidas;
         float minutos = Mathf.FloorToInt(tiempoDePartida / 60F);
         float segundos = Mathf.FloorToInt(tiempoDePartida % 60F);
         //tiempoDePartida = tiempoDePartida + Time.deltaTime;
 
         if (estaJugando == true)
         {
-         
+
             //tiempoDePartida = tiempoDePartida + Time.deltaTime;
 
-           // estaJugando = false;
+            // estaJugando = false;
 
             tiempoDePartida = tiempoDePartida + Time.deltaTime;
             // ganar.text = tiempoDePartida.ToString();
             textLabelTime.text = tiempoDePartida.ToString();
             textLabelTime.text = string.Format("{0:00}:{1:00}", minutos, segundos);
 
-         
-
 
         }
 
-    
+
+
+
 
 
 
 
     }
+
+    public void ActivarVida()
+    {
+       
+         vidas = vidas + RecuperarVida;
+
+
+    }
+
+
+
+
+
 
 
     private void OnTriggerEnter2D(Collider2D other)

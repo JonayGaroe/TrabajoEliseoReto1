@@ -143,5 +143,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloqueVida: 1
-  prefabPowerUp: {fileID: 4407604150407351628, guid: 53815b31f2250a643939b9d425a60958, type: 3}
+  detectionRadius: 1
+  prefabPowerUp: {fileID: 2472082213073101000, guid: ef6e5d422dc028a41a9f08a45d5abb32, type: 3}
   probabilidadPowerUp: 0
+  prefabPowerUp2: {fileID: 223703293872793639, guid: d4dc8fdd786ff4040879ac5479420dce, type: 3}
+  probabilidadPowerUp2: 0
+  prefabPowerUp3: {fileID: 2722616316165324668, guid: 8d2d5d79664dfe543a9c2857cd945e48, type: 3}
+  probabilidadPowerUp3: 0
+  prefabPowerUp4: {fileID: 2029017751719066780, guid: 8d5832a0a4a790e4792ad787ff005891, type: 3}
+  probabilidadPowerUp4: 0
+  prefabPowerUp5: {fileID: 6644371073941737573, guid: f3d6b6e6c906c7449866b6555f6fcaf4, type: 3}
+  probabilidadPowerUp5: 1
+  duracionDestruccion: 10
